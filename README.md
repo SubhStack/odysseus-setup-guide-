@@ -169,7 +169,7 @@ ODYSSEUS_ADMIN_USER=yourusername
 ```
 If it doesnt launch/ throws error
 
-run this: docker compose logs odysseus 2>&1 | grep -i "pass\|admin\|creat\|account"
+RUN THIS : docker compose logs odysseus 2>&1 | grep -i "pass\|admin\|creat\|account"
 
 Then restart:
 
