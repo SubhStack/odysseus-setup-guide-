@@ -133,6 +133,9 @@ Or if that doesn't work:
 ```
 http://127.0.0.1:7000
 ```
+OR USE THIS IF BOTH FAILS:
+
+Try : http://localhost:7000/setup directly  (or)  http://127.0.0.1:7000/setup , if localhost keeps refusing.
 
 You should see the Odysseus login screen.
 
