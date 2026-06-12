@@ -167,9 +167,12 @@ Once logged in, go to **Settings** to:
 ODYSSEUS_ADMIN_PASSWORD=yourpassword
 ODYSSEUS_ADMIN_USER=yourusername
 ```
-If it doesnt launch/ throws error
+If it doesnt launch/ throws error run this:
 
-RUN THIS : docker compose logs odysseus 2>&1 | grep -i "pass\|admin\|creat\|account"
+docker compose logs odysseus 2>&1 | grep -i "pass\|admin\|creat\|account 
+
+(Copy and paste this in terminal)
+
 
 Then restart:
 
