@@ -147,6 +147,10 @@ You should see the Odysseus login screen.
 
 ```bash
 docker compose logs odysseus | grep -i password
+
+or
+
+docker compose logs odysseus 2>&1 | grep -i "pass\|admin\|creat\|account"
 ```
 
 Look for a line that shows your auto-generated password and copy it.
