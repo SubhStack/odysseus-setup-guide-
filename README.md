@@ -108,8 +108,6 @@ git clone https://github.com/pewdiepie-archdaemon/odysseus.git && cd odysseus
 
 # Create your config file
 cp .env.example .env
-
-# Build and start Odysseus
 docker compose up -d --build
 
 # Check everything is running
