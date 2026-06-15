@@ -41,7 +41,7 @@
 |---|---|
 | macOS | Monterey or later |
 | RAM | **8GB minimum — 16GB recommended** |
-| Free Disk Space | ~5GB |
+| Free Disk Space | ~5-10GB |
 | Docker Desktop | Latest version |
 | Ollama | Latest version |
 
